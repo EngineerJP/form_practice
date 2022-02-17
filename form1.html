@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice</title>
+</head>
+<body>
+    <h1>Form Practice!</h1>
+    <!-- Use GET not POST for Forms-->
+    <form method="GET">
+    <strong>First Name: </strong><input type="text" name="first"><br>
+    <strong>Last name: </strong><input type="text" name="last"><br>
+    <strong>Email: </strong><input type="email" name="email"><br>
+    <strong>Address: </strong><input type="text" name="address"><br>
+    <strong>Birthplace: </strong><input type="text" name="birthplace"><br>
+    <strong>City/State: </strong><input type="text" name="City/State"><br>
+    <strong>Zip: </strong><input type="text" name="zipcode"><br>
+    <strong>Birthday: </strong><input type="date" name="birthday"><br>
+    <strong>Gender: </strong><br>
+    <input type="radio" name="gender-M">Male<br>
+    <input type="radio" name="gender-F">Female<br>
+    <input type="radio" name="gender-O">Other<br>
+    <strong>Are You A U.S Citizen? </strong><br>
+    <input type="radio" name="Citizen-Yes">Yes<br>
+    <input type="radio" name="citizen-No">No<br>
+    <input type="radio" name="citizen-N/A">Prefer Not To Answer<br>
+    <strong>Marital Status: </strong><br>
+    <input type="radio" name="marry"> Married <br>
+    <input type="radio" name="engaged"> Engaged <br>
+    <input type="radio" name="single"> Single <br>
+    <input type="radio" name="dating"> Dating <br>
+    <input type="radio" name="N/A"> Prefer Not To Answer <br>
+    <strong>Pets: </strong><br>
+    <input type="checkbox" name="cats"> Cats <br>
+    <input type="checkbox" name="dogs"> Dogs <br>
+    <input type="checkbox" name="fish"> Fish <br>
+    <input type="checkbox" name="other"> Other <br>
+    <strong>Family: </strong><br>
+    <input type="checkbox" name="brothers"> Brothers <br>
+    <input type="checkbox" name="sisters"> Sisters <br>
+    <input type="checkbox"name="kids"> Kids <br>
+    <input type="checkbox"name="none"> N/A <br>
+    <strong>Main Vehicle: </strong><br>
+    <select name="cars">
+        <option value=""></option>
+        <option value="kia">Kia</option>
+        <option value="audi">Audi</option>
+        <option value="ford">Ford</option>
+        <option value="Chevy">Chevy</option>
+        <option value="Dodge">Dodge</option>
+        <option value="toyota">Toyota</option>
+        <option value="nissan">Nissan</option>
+        <option value="Honda">Honda</option>
+        <option value="other">Other</option>
+    </select> <br>
+    <strong>Career: </strong><br>
+    <select name="job">
+        <option value=""></option>
+        <option value="healthcare"> Healthcare </option>
+        <option value="CustomerService"> Customer Service </option>
+        <option value="TradeJob"> Trade Job </option>
+        <option value="Technology"> Technology </option>
+        <option value="Education"> Education </option>
+        <option value="Student"> Student </option>
+    </select>
+    <br>
+    <input type="submit" value="Done">
+    <input type="reset">
+</form>
+</body>
+</html>
